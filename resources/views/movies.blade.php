@@ -6,11 +6,7 @@
     <div class="row row-cols-2 text-center">
       @foreach ($movies as $movie)
         <div class="col my-2">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-text">{{ $movie->title }}</h2>
-            </div>
-          </div>
+          @include('partials.card')
         </div>
       @endforeach
     </div>
