@@ -11,7 +11,10 @@
     </head>
     <body>
         <main>
+
+          <h1 class="text-center my-5">Movies</h1>
           @yield('content')
+
         </main>
     </body>
 </html>
